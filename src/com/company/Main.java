@@ -15,7 +15,7 @@ public class Main {
 
         int randomAge = generateRandomAge();
 
-        System.out.println(shouldGoOut(randomAge, 100));
+        System.out.println(shouldGoOut(randomAge, 20));
 
 
     }
@@ -56,7 +56,7 @@ public class Main {
     //Написать метод в котором генерируется случайный возраст public static int generateRandomAge(){........}
     public static int generateRandomAge() {
         Random rand= new Random();
-        return rand.nextInt(120) + 1;
+        return rand.nextInt(60) + 1;
 
     }
 
